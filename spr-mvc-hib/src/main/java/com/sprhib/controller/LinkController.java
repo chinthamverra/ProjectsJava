@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class LinkController {
-	//bcjdsafhdkajfkdjf
+	
 	@RequestMapping(value="/")
 	public ModelAndView mainPage() {
 		return new ModelAndView("home");
