@@ -11,8 +11,11 @@ public class LinkController {
 	public ModelAndView mainPage() {
 		return new ModelAndView("home");
 	}
-	//bfjgjfdkgjodgj
-	//jfhkdfgjfdlgjf
+	
+	@RequestMapping(value="/")
+	public ModelAndView mainPage1() {
+		return new ModelAndView("home");
+	}
 	@RequestMapping(value="/index")
 	public ModelAndView indexPage() {
 		return new ModelAndView("home");
