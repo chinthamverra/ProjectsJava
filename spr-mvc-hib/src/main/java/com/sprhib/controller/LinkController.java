@@ -11,6 +11,7 @@ public class LinkController {
 	public ModelAndView mainPage() {
 		return new ModelAndView("home");
 	}
+	///cvbcjjbkfjvcxkbjvckbjc
 	
 	@RequestMapping(value="/index")
 	public ModelAndView indexPage() {
