@@ -12,7 +12,7 @@ public class LinkController {
 		return new ModelAndView("home");
 	}
 	
-	@RequestMapping(value="/")
+	RequestMapping(value="/")
 	public ModelAndView mainPage1() {
 		return new ModelAndView("home");
 	}
